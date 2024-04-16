@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <script type="text/javascript" src="main.js" defer></script>
+    <title>PLatform UI</title>
+  </head>
+  <body>
+    <div class="section__left">
+      <div class="logo">
+        <img src="assets/images/logo.png" alt="imagen" class="logo__img" />
+        <a href="#" class="logo__link"> jhSantiagoDev </a>
+      </div>
+
+      <div class="sidebar">
+        <div class="item active">
+          <i class="fa-solid fa-house item__icon"></i>
+          <h3 class="item__title">Dashboard</h3>
+        </div>
+
+        <div class="item">
+          <i class="fa-regular fa-user item__icon"></i>
+          <h3 class="item__title">My chanel</h3>
+        </div>
+
+        <div class="item">
+          <i class="fa-solid fa-clock item__icon"></i>
+          <h3 class="item__title">history</h3>
+        </div>
+
+        <div class="item">
+          <i class="fa-solid fa-users item__icon"></i>
+          <h3 class="item__title">Popular</h3>
+        </div>
+
+        <div class="item">
+          <i class="fa-solid fa-music item__icon"></i>
+          <h3 class="item__title">Playlist</h3>
+        </div>
+
+        <div class="item">
+          <i class="fa-regular fa-message item__icon"></i>
+          <h3 class="item__title">Messages</h3>
+        </div>
+
+        <div class="item">
+          <i class="fa-solid fa-thumbs-up item__icon"></i>
+          <h3 class="item__title">Liked videos</h3>
+        </div>
+
+        <div class="item">
+          <i class="fa-solid fa-gear item__icon"></i>
+          <h3 class="item__title">Settings</h3>
+        </div>
+      </div>
+
+      <div class="signout">
+        <div class="item">
+          <i class="fa-solid fa-right-from-bracket item__icon"></i>
+          <h3 class="item__title">SignOut</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="section__main">
+      <div class="main__header">
+        <div class="header__search">
+          <button class="search__btn">
+            <i class="fa-solid fa-magnifying-glass search__icon"></i>
+          </button>
+          <input
+            type="text"
+            placeholder="Search for Videos..."
+            class="search__input"
+          />
+        </div>
+        <i class="fa-solid fa-grip-lines header__icon"></i>
+      </div>
+
+      <div class="main__banner">
+        <div class="banner__share">
+          <i
+            class="fa-solid fa-share-from-square share__icon share__icon--r"
+          ></i>
+          <i class="fa-regular fa-hand-point-up share__icon"></i>
+        </div>
+
+        <div class="banner__video-info">
+          <div class="item__video">
+            <h3 class="item-video__title">Today's Popular video:</h3>
+          </div>
+
+          <div class="item__video">
+            <i class="fa-regular fa-thumbs-up video-info__icon"></i>
+            <h3 class="item-video__title">230</h3>
+          </div>
+
+          <div class="item__video">
+            <i class="fa-solid fa-eye video-info__icon"></i>
+            <h3 class="item-video__title">1920</h3>
+          </div>
+
+          <div class="item__video">
+            <i class="fa-solid fa-calendar-days video-info__icon"></i>
+            <h3 class="item-video__title">20 May</h3>
+          </div>
+
+          <div class="item__video">
+            <i class="fa-regular fa-bookmark video-info__icon"></i>
+            <h3 class="item-video__title">20 May</h3>
+          </div>
+        </div>
+
+        <video
+          src="assets/videos/banner.mp4"
+          muted
+          loop
+          class="banner__video"
+        ></video>
+      </div>
+
+      <div class="separator">
+        <h3 class="separator__title">Discover World</h3>
+        <div class="separator__categories">
+          <a class="separator__link active" href="#">All</a>
+          <a class="separator__link" href="#">New to you</a>
+          <a class="separator__link" href="#">live</a>
+          <a class="separator__link" href="#">Gaming</a>
+          <a class="separator__link" href="#">Music</a>
+          <a class="separator__link" href="#">Cartoons</a>
+          <a class="separator__link" href="#">Challengers</a>
+          <a class="separator__link" href="#">Visual Arts</a>
+          <a class="separator__link" href="#">Trends</a>
+        </div>
+      </div>
+
+      <div class="main__video-items">
+        <div class="video-item">
+          <div class="like">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+
+          <video
+            class="video-item__video"
+            src="assets/videos/video-1.mp4"
+            muted
+            loop
+          ></video>
+
+          <div class="video-item__details">
+            <h3 class="details__title">animal o winter</h3>
+            <div class="details__info">
+              <div class="details__location">
+                <i class="fa-solid fa-location-dot location__icon"></i>
+                <h5 class="details__subtitle">Canada</h5>
+              </div>
+
+              <div class="details__rate">
+                <i class="fa-solid fa-star location__icon"></i>
+                <h5 class="details__subtitle">4.9</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-item">
+          <div class="like">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+
+          <video
+            class="video-item__video"
+            src="assets/videos/video-2.mp4"
+            muted
+            loop
+          ></video>
+
+          <div class="video-item__details">
+            <h3 class="details__title">Waves rushin</h3>
+            <div class="details__info">
+              <div class="details__location">
+                <i class="fa-solid fa-location-dot location__icon"></i>
+                <h5 class="details__subtitle">Spain</h5>
+              </div>
+
+              <div class="details__rate">
+                <i class="fa-solid fa-star location__icon"></i>
+                <h5 class="details__subtitle">4.3</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-item">
+          <div class="like">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+
+          <video
+            class="video-item__video"
+            src="assets/videos/video-3.mp4"
+            muted
+            loop
+          ></video>
+
+          <div class="video-item__details">
+            <h3 class="details__title">awesome video</h3>
+            <div class="details__info">
+              <div class="details__location">
+                <i class="fa-solid fa-location-dot location__icon"></i>
+                <h5 class="details__subtitle">USA</h5>
+              </div>
+
+              <div class="details__rate">
+                <i class="fa-solid fa-star location__icon"></i>
+                <h5 class="details__subtitle">4.5</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section__right">
+      <div class="profile">
+        <div class="profile__info">
+          <i class="fa-solid fa-user profile__icon"></i>
+          <h5 class="profile__subtitle">Welcome Reza!</h5>
+        </div>
+
+        <div class="profile__user">
+          <i class="fa-solid fa-bell user__icon"></i>
+          <div class="user__container-img">
+            <img
+              src="assets/images/profile.png"
+              class="user__img"
+              alt="image"
+            />
+          </div>
+        </div>
+      </div>
+
+      <h3 class="right__title">Nature Playlist</h3>
+
+      <div class="playlist">
+        <video
+          src="assets/videos/playlist.mp4"
+          muted
+          loop
+          class="playlist__video"
+        ></video>
+        <div class="playlist__other">
+          <img
+            src="assets/images/playlist-1.jpg"
+            alt="img"
+            class="playlist__img"
+          />
+          <img
+            src="assets/images/playlist-2.jpg"
+            alt="img"
+            class="playlist__img"
+          />
+          <img
+            src="assets/images/playlist-3.jpg"
+            alt="img"
+            class="playlist__img"
+          />
+          <img
+            src="assets/images/playlist-4.jpg"
+            alt="img"
+            class="playlist__img"
+          />
+        </div>
+      </div>
+
+      <h3 class="right__title">Current player</h3>
+
+      <div class="player">
+        <div class="player__content">
+          <img
+            src="assets/images/playlist-4.jpg"
+            alt="player"
+            class="player__img"
+          />
+
+          <div class="player__info">
+            <h5 class="info__subtitle">germany travel tour</h5>
+            <div class="info__rate">
+              <i class="fa-solid fa-star rate__icon"></i>
+              <h5 class="rate__num">4.7</h5>
+            </div>
+          </div>
+
+          <div class="player__description">
+            <p class="player__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit...
+            </p>
+          </div>
+        </div>
+
+        <i class="fa-solid fa-pause player__icon"></i>
+      </div>
+
+      <h3 class="right__title">Weekly popular</h3>
+
+      <div class="weekly">
+        <div class="weekly__item">
+          <div class="weekly__content">
+            <img src="assets/images/weekly-1.jpg" alt="" class="weekly__img" />
+            <div class="weekly__info">
+              <h4 class="info__subtitle info__subtitle--week">Sea Balloon</h4>
+              <div class="info__view">
+                <i class="fa-solid fa-eye view__icon"></i>
+                <h5 class="view__num">2,320</h5>
+              </div>
+            </div>
+          </div>
+
+          <i class="fa-solid fa-heart-pulse weekly__icon"></i>
+        </div>
+
+        <div class="weekly__item">
+          <div class="weekly__content">
+            <img src="assets/images/weekly-2.jpg" alt="" class="weekly__img" />
+            <div class="weekly__info">
+              <h4 class="info__subtitle info__subtitle--week">Flowers</h4>
+              <div class="info__view">
+                <i class="fa-solid fa-eye view__icon"></i>
+                <h5 class="view__num">2,490</h5>
+              </div>
+            </div>
+          </div>
+
+          <i class="fa-solid fa-heart-pulse weekly__icon"></i>
+        </div>
+
+        <div class="weekly__item">
+          <div class="weekly__content">
+            <img src="assets/images/weekly-3.jpg" alt="" class="weekly__img" />
+            <div class="weekly__info">
+              <h4 class="info__subtitle info__subtitle--week">Street</h4>
+              <div class="info__view">
+                <i class="fa-solid fa-eye view__icon"></i>
+                <h5 class="view__num">1,532</h5>
+              </div>
+            </div>
+          </div>
+
+          <i class="fa-solid fa-heart-pulse weekly__icon"></i>
+        </div>
+
+        <div class="weekly__item">
+          <div class="weekly__content">
+            <img src="assets/images/weekly-4.jpg" alt="" class="weekly__img" />
+            <div class="weekly__info">
+              <h4 class="info__subtitle info__subtitle--week">Sea Water</h4>
+              <div class="info__view">
+                <i class="fa-solid fa-eye view__icon"></i>
+                <h5 class="view__num">4,402</h5>
+              </div>
+            </div>
+          </div>
+
+          <i class="fa-solid fa-heart-pulse weekly__icon"></i>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
