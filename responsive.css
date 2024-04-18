@@ -1,3 +1,97 @@
-@media (max-width: 1020px) {
-   
+@media (max-width: 1320px) {
+   .separator__link:last-child,
+   .weekly__item:last-child {
+      display: none;
+   }
+
+   .weekly__item {
+      font-size: 1.3rem;
+   }
+}
+
+@media (max-width: 1200px) {
+   .logo__link,
+   .item__title,
+   .separator__link:nth-child(2) {
+      display: none;
+   }
+
+   .section__main {
+      margin-left: 5.5rem;
+      flex: 6;
+   }
+
+   .like {
+      right: 15px;
+      top: 15px;
+   }
+
+   .like i {
+      font-size: 1.8rem;
+   }
+
+   .section__right {
+      flex: 3;
+   }
+
+   .weekly__img {
+      max-width: 8rem;
+      height: 5.5rem;
+   }
+
+   .info__subtitle--week { 
+      font-size: 1.1rem;
+   }
+}
+
+@media (max-width: 992px) {
+   body {
+      flex-direction: column;
+   }
+
+   .section__left {
+      padding-top: 7rem;
+      justify-content: flex-start;
+      gap: 2rem;
+   }
+
+   .section__main {
+      margin-top: 5rem;
+   }
+
+   .section__right {
+      padding-left: 7rem;
+   }
+
+   .profile {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 0.8rem 2.5rem;
+   }
+
+   .playlist__video {
+      height: 34rem;
+   }
+
+   .playlist__img {
+      height: 7rem;
+   }
+
+   .player__description {
+      display: block;
+   }
+
+   .weekly {
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0;
+      margin-bottom: 2rem;
+   }
+
+   .weekly__item {
+      flex-basis: 48%;
+   }
 }
